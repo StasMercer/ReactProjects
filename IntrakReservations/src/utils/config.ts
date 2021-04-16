@@ -1,0 +1,1 @@
+export const apiUrl = "https://rezervacie.intrak.sk/rezervacie/api/v0.0"
