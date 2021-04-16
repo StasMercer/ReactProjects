@@ -1,0 +1,40 @@
+@use 'common' as *;
+$borderColor: rgba(94, 94, 94, 0.096);
+
+.item{
+    
+    width: 90%;
+    max-width: 300px;
+    margin: 20px;
+    height: 7rem;
+    display: flex;
+    box-shadow:  $boxShadow;
+    border: 1px solid $borderColor;
+    border-radius: 10px;
+    transition: all .2s ease-in-out;
+    &:hover, :focus{
+        transform: scale(1.1);
+    }
+    .image{
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .content{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 10px 10px 0 10px;
+        
+        .title{
+            text-transform: capitalize;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+    
+        .description{
+            font-size: 0.7rem;
+        }
+    }
+
+    
+}

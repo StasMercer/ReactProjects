@@ -1,0 +1,13 @@
+@use 'common' as *;
+
+.header{
+    @include flexRowItemsCenter();
+    height: 50px;
+    width: 100%;
+    padding: 2rem;
+    font-weight: 600;
+    border-bottom: 1px solid $borderColor;
+    .logo{
+      @include logoMixin(1.5rem)
+    }
+  }

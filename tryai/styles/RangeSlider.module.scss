@@ -1,0 +1,23 @@
+@use 'common' as *;
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    margin: 1.1em 0;
+    .slider{
+        display: flex;
+        
+    }
+    label{
+        padding: .2em;
+        display: flex;
+        font-weight: bold;
+    }
+    input{
+        width: 100%;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}

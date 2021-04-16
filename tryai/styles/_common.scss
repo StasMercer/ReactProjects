@@ -1,0 +1,21 @@
+$backgroundColor: #322659;
+$btnBorderColor: #FFFFFF;
+$borderColor: rgba(94, 94, 94, 0.534);
+$boxShadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+@mixin flexRowItemsCenter {
+    display: flex;
+    align-items: center;
+}
+  
+@mixin logoMixin($fontsize){
+    font-size: $fontsize;
+    font-weight: 700;
+    &::after{
+      color: blue;
+      content: "}";
+    }
+    &::before{
+      color: blue;
+      content: "{"
+    }
+  }
