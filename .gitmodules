@@ -1,6 +1,0 @@
-[submodule "learner-client"]
-	path = learner-client
-	url = https://github.com/StasMercer/learner-client.git
-[submodule "learner-server"]
-	path = learner-server
-	url = https://github.com/StasMercer/learner-server.git
